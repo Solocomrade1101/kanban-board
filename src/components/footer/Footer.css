@@ -1,0 +1,30 @@
+.footer {
+   max-width: 1200px;
+   margin: 0 auto;
+   height: 55px;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   color: white;
+   font-size: 18px;
+}
+
+.count {
+   display: flex;
+   justify-content: flex-start;
+}
+
+.count-item {
+   margin-right: 36px;
+}
+
+.count-item-single {
+   margin: 0;
+}
+
+@media (max-width: 1300px) {
+   .footer {
+       display: none;
+   }
+}

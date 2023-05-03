@@ -1,0 +1,75 @@
+.header{
+   background: #0067A3;
+
+}
+.content{
+   max-width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header__title{
+
+}
+.title{
+   font-size: 28px;
+   font-weight: normal;
+   line-height: 32.81px;
+   color: #fff;
+   padding-bottom: 18px;
+   padding-top: 11px;
+}
+@media (max-width:650px){
+   .title{
+      display: none;
+   }
+}
+.header__user{
+  position: relative;
+}
+.user{
+   display: flex;
+   /* align-items: center; */
+}
+.user_ava{
+
+}
+.user_arrowU{
+   display: none;
+}
+.user_arrowD{
+   display: none;
+}
+.modal{
+   background-image: url(../../images/modal.png);
+   display: flex;
+   flex-direction: column;
+   width: 134px;
+   height: 68px;
+   position: absolute;
+   top: 43px;
+   left: -70px;
+   font-size: 14px;
+   line-height: 16.41px;
+   padding-left: 7px;
+   padding-top: 17px;
+   
+   
+}
+.modal__profile{
+   margin-bottom: 8px;
+   font-size: 14px;
+   line-height: 16.41px;
+   color: #000;
+}
+.modal__profile:hover{
+   text-decoration: underline
+}
+.modal__LogOut{
+   color: #000;
+}
+.modal__LogOut:hover{
+   text-decoration: underline
+}
